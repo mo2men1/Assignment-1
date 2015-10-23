@@ -3,7 +3,8 @@
 >Class is a method to represent an object as a user-defined data type, it contains data representation and methods to manipulate data of the object.
 
 ###Q2.
->
+>Classes achieve abstraction by hiding the information or providing only necessary details to the client.  
+>while they achieve Encapsulation by binding the data and bahaviours together in a single unit, and this is achieved throw data hiding of the member data of the class.
 
 
 ###Q3.
@@ -49,7 +50,23 @@ Default constructor is a constructor that will be called everytime a new object 
 it can be used to make initialization for the data variables when the object is made.
 
 ###Q9.
+```c++
+string Stock::getCompany() const{
+	return company;
+}
 
+int Stock::getShares()const{
+	return shares;
+}
+
+double Stock::getShare_val()const{
+	return share_val;
+}
+
+double Stock::getTotal_val()const{
+	return total_val;
+}
+```
 
 ###Q10.
 this returns a reference to the invoking object, while *this returns a clone to the object.
