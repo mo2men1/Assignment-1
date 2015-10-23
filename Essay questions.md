@@ -51,19 +51,19 @@ it can be used to make initialization for the data variables when the object is 
 
 ###Q9.
 ```c++
-string Stock::getCompany() const{
+const string& Stock::getCompany() const{
 	return company;
 }
 
-int Stock::getShares()const{
+const int& Stock::getShares()const{
 	return shares;
 }
 
-double Stock::getShare_val()const{
+const double& Stock::getShare_val()const{
 	return share_val;
 }
 
-double Stock::getTotal_val()const{
+const double& Stock::getTotal_val()const{
 	return total_val;
 }
 ```
