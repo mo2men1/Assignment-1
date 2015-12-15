@@ -1,3 +1,4 @@
+Lol
 #Assignment 1
 ###Q1.
 >Class is a method to represent an object as a user-defined data type, it contains data representation and methods to manipulate data of the object.
